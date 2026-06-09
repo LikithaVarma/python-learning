@@ -37,6 +37,8 @@ print("Score: 84 -> Grade:", calculate_grade(84))
 print("Score: 73 -> Grade:", calculate_grade(73))
 print("Score: 62 -> Grade:", calculate_grade("excellent"))
 
+
+
 passed_grades = [calculate_grade(score) for score in scores if score >= 70]
 
 print(passed_grades)
